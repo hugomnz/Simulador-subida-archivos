@@ -39,7 +39,7 @@ La interfaz incluye un botón centralizado para "Subir archivo" y un mensaje din
 ## 📦 Cómo usarlo
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/simulador-subida-archivos.git
+   git clone https://github.com/hugomnz/simulador-subida-archivos.git
 2. Abre el archivo index1.html en tu navegador.
 3. Haz clic en el botón y observa la simulación 🚀.
 
