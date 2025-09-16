@@ -1,0 +1,70 @@
+/* Fondo con degradado */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+  }
+  
+  /* Contenedor principal */
+  main {
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  h1 {
+    color: #00796b;
+    margin-bottom: 30px;
+  }
+  
+  /* Botón */
+  button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #00796b;
+    transform: scale(1.05);
+  }
+  
+  button:disabled {
+    background-color: #b2dfdb;
+    cursor: not-allowed;
+  }
+  
+  /* Estilo del mensaje */
+  #status {
+    margin-top: 25px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilos dinámicos para los estados */
+  .status-progreso {
+    color: #f57c00;
+    animation: blink 1s infinite;
+  }
+  
+  .status-exito {
+    color: #388e3c;
+  }
+  
+  .status-error {
+    color: #d32f2f;
+  }
+  
+  /* Animación para el mensaje de progreso */
+  @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; }}  
